@@ -1,0 +1,46 @@
+$black-color: (
+  c1: #f20642,
+  c2: #3d1119,
+  c3: #35a96e,
+  c4: #173222,
+  c5: #0079ff,
+  c6: #294672,
+  c7: #f20642,
+  c8: #3d1119,
+  t1: #bebebe,
+  t2: #969696,
+  t3: #828282,
+  t4: #6e6e6e,
+  t5: #ffffff,
+  t6: #ffffff,
+  t7: #ffffff,
+  sp6: #ff981e,
+  sp10: #599eff,
+  sp11: #599eff,
+  sp17: #f7713b,
+  sp23: #333333
+);
+
+$black-bg-color: (
+  b1: #10140f,
+  b2: #1c2026,
+  b3: #171b21,
+  b4: #222222,
+  b5: #1e262a,
+  b6: #222222,
+  b-1: #10140f,
+  b-2: #171b21,
+  b-3: #1c2026,
+  b-4: #1c2026,
+  b-5: #f6a94d,
+  b-sp24: #fdefd1,
+  bc1: map_get($black-color, c1)
+);
+
+$black-border-color: (
+  l1: #ffffff,
+  l2: #1e262a,
+  l3: #242e35,
+  l4: #646464,
+  l-c1: map-get($black-color, c1)
+);

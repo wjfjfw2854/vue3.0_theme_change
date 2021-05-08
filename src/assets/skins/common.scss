@@ -1,0 +1,9 @@
+@import './skinmix.scss';
+
+.color_fonts {
+    @include setColor(t1);
+}
+
+.bg_view {
+    @include setBgColor(b1);
+}

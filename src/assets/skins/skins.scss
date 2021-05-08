@@ -1,0 +1,18 @@
+@import './default.scss';
+@import './black.scss';
+
+$color_w:'color_w';
+$color_b:'color_b';
+// $bg_w:'bg_w';
+// $bg_b:'bg_b';
+
+$colors:(
+    #{$color_w}: $default-color,
+    #{$color_b}: $black-color
+);
+$bgColors:(
+    // #{$bg_w}: $default-bg-color,
+    // #{$bg_b}: $black-bg-color
+    #{$color_w}: $default-bg-color,
+    #{$color_b}: $black-bg-color
+);

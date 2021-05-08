@@ -1,0 +1,47 @@
+$default-color: (
+  c1: #eb333b,
+  c2: #fbd6d8,
+  c3: #17b03e,
+  c4: #d1efd8,
+  c5: #0079ff,
+  c6: #bfddff,
+  c7: #eb333b,
+  c8: #fbd6d8,
+  t1: #333333,
+  t2: #646464,
+  t3: #8c8c8c,
+  t4: #a0a0a0,
+  t5: #ffffff,
+  t6: #ffffff,
+  t7: #ffffff,
+  sp6: #ff981e,
+  sp10: #599eff,
+  sp11: #599eff,
+  sp17: #f7713b,
+  sp23: #333333
+);
+
+$default-bg-color: (
+  b1: #ffffff,
+  b2: #efeff4,
+  b3: #ffffff,
+  b4: #e6e6e6,
+  b5: #dddddd,
+  b6: #f7f8fa,
+  b-1: #fafafa,
+  b-2: #fafafa,
+  b-3: #f0f0f0,
+  b-4: #f4f4f9,
+  b-5: #f6a94d,
+  b-sp24: #fdefd1,
+  bc1: map-get($default-color, c1)
+);
+
+$default-border-color: (
+  l1: #ffffff,
+  l2: #dddddd,
+  l3: #b4b4b4,
+  l4: #646464,
+  l-c1: map-get($default-color, c1),
+  l-4: #8c8c8c
+);

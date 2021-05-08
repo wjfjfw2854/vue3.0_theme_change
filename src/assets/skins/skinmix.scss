@@ -1,0 +1,17 @@
+@import './skins.scss';
+
+@mixin setColor($color) {
+    @each $name,$colorList in $colors {
+        .#{$name} & {
+            color: map_get($colorList,$color);
+        }
+    }
+}
+
+@mixin setBgColor($c) {
+    @each $name, $colorList in $bgColors {
+      .#{$name} & {
+        background-color: map_get($colorList, $c);
+      }
+    }
+  }
