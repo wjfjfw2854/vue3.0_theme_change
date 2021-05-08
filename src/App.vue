@@ -14,6 +14,7 @@
     <div class="style_x">测试下mixin与include</div>
     <div class="title_wrap">联手巨头KRKA，打开CMO超级蓝海赛道。已与施维雅，德国拜耳等15家国内外优秀医药企业达成合作，临床阶段和转移验证阶段产品约20余项。</div>
     <div class="dtc">{{dtVal}}</div>
+    <img src="./assets/logo.png"/>
   </div>
 </template>
 
